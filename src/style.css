@@ -1,0 +1,43 @@
+body{
+	background-color: yellow;
+	font-family: cursive;
+	font-size: x-large;
+}
+.portada{
+  text-align: center;
+  align-content: center;
+  margin: 100px;
+}
+.formulario{
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 20px 10px rgba(100, 0, 0, 0.8);
+}
+.contenedor{
+	border: 0px;
+	text-align: center;
+}
+.tit{
+	margin-top: 50px;
+	color: red;
+}
+.mostrar{
+	text-align: center;
+	align-content: center;
+	margin-top: 100px;
+	color: green;
+}
+.botones1{
+	align-content: center;
+	text-align: center;
+}
+.mostrarTFI{
+	align-content: center;
+	text-align: center;
+}
+.mostrarPCI{
+	align-content: center;
+	text-align: center;
+}
