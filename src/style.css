@@ -1,5 +1,8 @@
 body{
-	background-color: yellow;
+	margin: 0;
+	padding: 0;
+	background: url(./imagenes/fondo1.jpg);
+	background-size: 700px 1350px;
 	font-family: cursive;
 	font-size: x-large;
 }
@@ -28,16 +31,13 @@ body{
 	align-content: center;
 	margin-top: 100px;
 	color: green;
+
+
 }
 .botones1{
 	align-content: center;
 	text-align: center;
 }
-.mostrarTFI{
-	align-content: center;
-	text-align: center;
-}
-.mostrarPCI{
-	align-content: center;
-	text-align: center;
+.ocultar{
+	display: none;
 }
