@@ -10,6 +10,7 @@ document.getElementById("mensaje1").classList.add("ocultar");
 document.getElementById("botones1").classList.add("ocultar");
 document.getElementById("button").addEventListener("click",mos);
 
+
 function codi(){
     mostrar.innerHTML = cipher.encode(document.getElementById("textint").value,document.getElementById("textcod").value);
 }
@@ -28,10 +29,11 @@ function recibirNombre() {
 function mos() {
 	console.log('mos')
 	document.getElementById("mensaje1").classList.remove("ocultar");
-	document.getElementById("botones1").style.display = "block";
-	document.getElementById("codifica").style.display = "block";
-    document.getElementById("decodifica").style.display = "block";
-    document.getElementById("ocultar").style.display = "none";
+	document.getElementById("botones1").classList.remove("ocultar");
+	document.getElementById("codifica").classList.remove("ocultar");
+    document.getElementById("decodifica").classList.remove("ocultar");
+    document.getElementById("ocultar").classList.remove("ocultar");
+ 
 
     
 
