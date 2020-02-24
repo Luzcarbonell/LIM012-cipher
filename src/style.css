@@ -1,8 +1,11 @@
 body{
+	display: flex;
+    justify-content: center;
 	margin: 0;
 	padding: 0;
 	background: url(./imagenes/fondo1.jpg);
-	background-size: 700px 1350px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: cursive;
 	font-size: x-large;
 }
@@ -26,10 +29,10 @@ body{
 	margin-top: 50px;
 	color: red;
 }
-.mostrar{
+.saludo{
 	text-align: center;
 	align-content: center;
-	margin-top: 100px;
+	margin-top: 0px;
 	color: green;
 
 
