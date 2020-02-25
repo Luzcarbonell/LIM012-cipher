@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-console.log("hola");
+//console.log("hola");
 
 let mostrar = document.getElementById("textdes");
 document.getElementById("codifica").addEventListener("click",codi);
@@ -18,12 +18,13 @@ function deco(){
 }
 
 function recibirNombre() {
-	console.log('recibirNombre');
+	
 	const saludo = document.getElementById("saludo");
 	saludo.innerHTML = "Hola " + document.getElementById('name').value;
+	//console.log(saludo);
 }
 function mos() {
-	console.log('mos')
+	
 	recibirNombre();
 	document.getElementById("mensaje1").classList.remove("ocultar");
 	document.getElementById("botones1").classList.remove("ocultar");
