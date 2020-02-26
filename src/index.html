@@ -7,60 +7,47 @@
   </head>
   <body>
     <header>
-      <div>
+      <h1>
         LABORATORIO "GAINAX"
-      </div>
-    </header>
+      </h1>
+    </header>  
     <main>
-      <div id="portada" class="portada">
-        <h1 class="titulo">INGRESE SU NOMBRE AQUI</h1><br>
+      <div id="login" class="login">
+        <h3 class="titulo">INGRESE SU NOMBRE AQUI</h3>
         <div id="formulario" class="formulario">
-          <label for="" class="formulario_label">NOMBRE</label>
-          <input type="text" id="name" class="name"><br><br>
-          <button type="button" id="button" value="entrar">intro</button>
+          <label>NOMBRE</label>
+          <input type="text" id="name" class="name"><br>
+          <input type="button" id="intro" value="ACCEDER">
         </div><br>
       </div>
-      
-      
-      <article id="saludo ocultar" class="saludo">
-        <h1 id="saludo"></h1>
-      </article>
+
       <div id="mensaje1" class="mensaje1">
-        <br>
-        <br>
-        <h1 class="cifrado">CIFRADO</h1>
+        <h3 id="saludo"></h3>
+        <h4 class="cifrado">cifrado</h4>
         <form>
-          <textarea type="text" id="textcod" cols="50" rows="10" style="width:40em; height:15em"></textarea>
+          <textarea type="text" id="textcod"></textarea>
+          <br>
+          <textarea type="text" id="textdes" ></textarea>
           <br>
           <div id="botones1" class="botones1">
-            <input type ="button" id="codifica" value="Cifra"/>
-            <input type="button" id="decodifica" value="Decifra" />
-          
+            <input type ="button" id="codifica" value="Cifra">
+            <input type="button" id="decodifica" value="Decifra">            
           </div>
-          <br>
-          <textarea type="text" id="textdes" cols="50" rows="10" style="width:40em; height:15em"></textarea>
-          <br>
-          <br>
-          <input type ="number" id="textint" value="" style="width:4em;" />
-          <input type="reset" id="limpiar" value="clear"/>
+          <input type ="number" id="textint" value="">
+          <input type="reset" value="clear">
+
         </form>
       </div>
-      <article id="saludo ocultar" class="saludo">
-        <h1 id="saludo"></h1>
-      </article>
-  
-       
-    </main>
-      <footer>
-        <div id="cerrar">
-        CENTRAL TELEFONICA: #4284967 Email: contacto@gainax.lab 
-        </div>
-      </footer>  
-      <br>
-      <br>
-        <script type="module" src="index.js"></script>   
 
-        
-  </body>
- 
+    </main>
+    
+    <footer>
+      <div id="cerrar">
+      CENTRAL TELEFONICA: #4284967 Email: contacto@gainax.lab 
+      </div>
+    </footer>  
+    
+    <script type="module" src="index.js"></script>   
+     
+  </body> 
 </html>

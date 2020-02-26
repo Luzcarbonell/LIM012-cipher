@@ -1,50 +1,66 @@
-body{
-	height: 650px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-    justify-content: center;
-	margin: 0;
-	padding-top: 50px;
-	background: url(./imagenes/fondo1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: cursive;
-	font-size: x-large;
+.ocultar{
+	display: none;
 }
 
-header {
-	height: 100px;
+body{
+
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	flex-direction:column;
+    justify-content: center;
+	margin: 0;
+	padding-top: 30px;
+	background: url(./imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	font-family: cursive;
+	font-size: x-large;
+	color: rgb(31, 73, 80); 
 }
-.portada{
+
+
+.login{
+	height: 20 vh;
 	text-align: center;
 	align-content: center;
-	margin: 100px;
+	
 }
 .formulario{
 	width: 300px;
 	height: 100px;
 	margin: auto;
 	text-align: center;
-	box-shadow: 0 0 20px 10px rgba(100, 0, 0, 0.8);
+	box-shadow: 0 0 20px 10px rgba(31, 73, 80, 0.699);
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
+#name {
+	width: 200px;
+	height: 25px;
+	padding-left: 15px;
+	color: rgb(31, 73, 80);
+	font-size: 16px;
+}
+
+button {
+	height:30px;
+	width: 90px;
+}
+
 .contenedor{
 	border: 0px;
 	text-align: center;
 }
 .tit{
 	margin-top: 50px;
-	color: red;
+	color: darkcyan,
 }
 .saludo{
-	/*text-align: center;
+	text-align: center;
 	align-content: center;
-	margin-top: 0px;*/
+	margin-top: 0px;
 	color: green;
-	/*position: absolute;*/
+	position: absolute;
 }
 .botones1{
 	align-content: center;
@@ -52,17 +68,24 @@ header {
 }
 
 
-/* footer{
-     	position: relative;
-}*/
+footer{
+		 position: relative;
+		 bottom: 0px;
+}
 
 #cerrar{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	
+	
+
 }
 
-.ocultar{
-	display: none;
+textarea{
+	columns:50; 
+	height:10;
+	widows: 40px;; 
+	height:15px;
 }
+
