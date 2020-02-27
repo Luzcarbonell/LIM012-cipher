@@ -1,8 +1,10 @@
 const cipher = {
+  
   encode : (offset,string) => 
   {
     let str="";
-    for(let i = 0; i<string.length;i++){
+    for(let i = 0; i<string.length;i++)
+    {
       let ascii = string.charCodeAt(i);
       if(ascii>=65 && ascii<=90){
           let num = (ascii - 65 + parseInt(offset)) % 26 + 65;
@@ -18,6 +20,7 @@ const cipher = {
     }
     return str;
   },
+
   decode : (offset,string) =>
   {
     let str="";
@@ -33,7 +36,8 @@ const cipher = {
       }
       else{
         str += String.fromCharCode(ascii);
-      }
+       
+      } 
     }
     return str;
   }

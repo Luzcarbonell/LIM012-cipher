@@ -3,21 +3,20 @@
 }
 
 body{
-
 	display: flex;
 	align-items: center;
 	flex-direction:column;
     justify-content: center;
 	margin: 0;
-	padding-top: 30px;
 	background: url(./imagenes/fondo2.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;/* se maxifica toda la paNTALLA*/
 	font-family: cursive;
 	font-size: x-large;
 	color: rgb(31, 73, 80); 
+	height: 100vh; /* para ellos trabajan juntos al height*/
+
 }
-
-
 .login{
 	height: 20 vh;
 	text-align: center;
@@ -25,13 +24,21 @@ body{
 	
 }
 .formulario{
-	width: 300px;
+	width: 350px;
 	height: 100px;
 	margin: auto;
 	text-align: center;
 	box-shadow: 0 0 20px 10px rgba(31, 73, 80, 0.699);
 	padding-top: 20px;
 	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#contenedorNombre{
+	display: flex;
+	justify-content: center;
 }
 
 #name {
@@ -40,6 +47,8 @@ body{
 	padding-left: 15px;
 	color: rgb(31, 73, 80);
 	font-size: 16px;
+	display: flex;
+	justify-content: center;
 }
 
 button {
@@ -59,7 +68,7 @@ button {
 	text-align: center;
 	align-content: center;
 	margin-top: 0px;
-	color: green;
+	color: darkcyan;
 	position: absolute;
 }
 .botones1{
@@ -69,17 +78,17 @@ button {
 
 
 footer{
-		 position: relative;
-		 bottom: 0px;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	position: absolute;
+	bottom: 0px;
 }
 
 #cerrar{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
-	
-
 }
 
 textarea{

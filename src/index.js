@@ -33,7 +33,7 @@ const mos = () => {
 
 const codi = () => {
 
-	mostrar.value = cipher.encode(
+	mostrar.value  = cipher.encode(
 		document.getElementById("textint").value,
 		document.getElementById("textcod").value);
 }
