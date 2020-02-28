@@ -2,9 +2,11 @@
 
 ## Índice
 
-* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+
+
 * [2. Imagen final del Proyecto](#2-imagenfinal-del-proyecto)
-* [4. Consideraciones generales](#4-consideraciones-generales)
+* [4. Consideraciones generales](#3-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
