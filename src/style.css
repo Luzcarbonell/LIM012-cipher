@@ -6,7 +6,8 @@ body{
 	display: flex;
 	align-items: center;
 	flex-direction:column;
-    justify-content: center;
+	justify-content: center;
+	text-align: center;
 	margin: 0;
 	background: url(./imagenes/fondo2.jpg);
 	background-repeat: no-repeat;
@@ -91,10 +92,13 @@ footer{
 	justify-content: center;
 }
 
-textarea{
-	columns:50; 
-	height:10;
-	widows: 40px;; 
-	height:15px;
+#textdes{
+	columns:50px; 
+	height:40px;
+	width: 270px;
 }
-
+#textint{
+	columns:50px; 
+	height:20px;
+	width: 40px;
+}

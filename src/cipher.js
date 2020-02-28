@@ -2,6 +2,9 @@ const cipher = {
   
   encode : (offset,string) => 
   {
+    if(string == "" || string == 0 || offset==0 ||offset==""){
+      throw new TypeError();    
+    }
     let str="";
     for(let i = 0; i<string.length;i++)
     {
@@ -23,6 +26,9 @@ const cipher = {
 
   decode : (offset,string) =>
   {
+    if(string == "" || string == 0 || offset==0 ||offset==""){
+      throw new TypeError();
+    }
     let str="";
     for(let i = 0; i<string.length;i++){
       let ascii = string.charCodeAt(i);

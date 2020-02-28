@@ -17,7 +17,7 @@
         <div id="formulario" class="formulario">
           <div id="contenedorNombre">
             <label>NOMBRE</label>
-            <input type="text" id="name" class="name"><br>
+            <input type="text"  id="name" class="name" ><br>
           </div>
           <div>
             <input type="button" id="intro" value="ACCEDER">
@@ -27,20 +27,25 @@
 
       <div id="mensaje1" class="mensaje1">
         <h3 id="saludo"></h3>
-        <h4 class="cifrado">cifrado</h4>
+        <h4 class="cifrado">Ingrese su mensaje </h4>
         <form>
+          <label for="texto">Mensaje</label>
           <textarea type="text" id="textcod"></textarea>
           <br>
+          <label for="texto">Nivel de seguridad</label>
           <input type ="number" id="textint" value="">
           <br>
           <div id="botones1" class="botones1">
             <input type ="button" id="codifica" value="Cifra">
-            <input type="button" id="decodifica" value="Decifra">            
+            <input type="button" id="decodifica" value="Decifra">  
+            
           </div>
+         <br> 
           <textarea type="text" id="textdes" ></textarea>
+          <br>
           <input type="reset" value="clear">
 
-        </form>
+        </form>   
       </div>
 
     </main>
