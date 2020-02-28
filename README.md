@@ -6,7 +6,7 @@
 Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rubro de la medicina y deseen poder enviar mensajes cifrados a otra persona de su mismo centro de labor. 
 
 * [2. Imagen final del Proyecto](#2-imagenfinal-del-proyecto)
-![prototipo final](imagenes/prototipofinal.png)
+![prototipo final](prototipofinal.png)
 * [4. Consideraciones generales](#3-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
