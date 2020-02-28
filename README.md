@@ -1,12 +1,30 @@
 # MENSAJERIA CIFRADA DEL LABORATORIO "GAINAX" 
 
+Investigación UX:
+  1. Resumen del proyecto
+    Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rubro de la medicina y deseen poder enviar mensajes cifrados a otra persona de su mismo centro de labor. 
+
+  2. Imagen final del proyecto
+    ![imagenfinal](imag/prototipofinal.png)
+
+  3. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+
+    Como es dirigido a personas que trabajan en el rubro de la salud/medicina, la mayoria son personas que crean formulas para diferente tipo de medicamentos, por ello la necesidad de escribir codificado sobre alguna inquietud a otro compañero de trabajo sin que lo demas sepan el tipo de componente tenga la nueva medicina.
+ 
+  4. Luego colocarás la foto de tu primer prototipo en papel.
+    ![prototipo1](imag/prototipopapel.jpeg)
+
+  5. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+     Primero la idea inicial fue realizar el proyecto para ingresar a un laboratorio y el  ingreso seria a travez de la codificación cesar pero como no se entendia mucho , asi que lo modifique para que se adapte a una comunicación entre colaboradores de un mismo laboratorio, al comienzo realize el codigo con informacion antes usada("trivia"), mis compañeras me ayudaron a ver que habia otras opciones para lograr el mismo fin, asi como hacer al diseño de la pagina mas agradable . 
+
+
+  6. Imagen del prototipo final.
+
 ## Índice
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
-Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rubro de la medicina y deseen poder enviar mensajes cifrados a otra persona de su mismo centro de labor. 
-
 * [2. Imagen final del Proyecto](#2-imagenfinal-del-proyecto)
-![prototipo final](imag/prototipofinal.png)
 * [4. Consideraciones generales](#3-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -25,9 +43,8 @@ Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rub
 
 ## 3. Investigación UX:
 
-  # Explicar quiénes son los usuarios y los objetivos en relación con el producto.
-
-  # Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
