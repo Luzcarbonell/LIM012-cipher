@@ -12,24 +12,21 @@ const botones1 = document.getElementById("botones1");
 botones1.classList.add("ocultar");
 const codifica = document.getElementById("codifica");
 const decodifica = document.getElementById("decodifica");
-const intro = document.getElementById("intro");
+//const intro = document.getElementById("intro");
 const login = document.getElementById("login");
 saludo.classList.remove("ocultar");
+const form= document.getElementById("form");
 
-
-const recibirNombre = () => {
+form.addEventListener("submit",(event) =>{
+	event.preventDefault();
 	saludo.innerHTML = "Hola " + document.getElementById('name').value;
-}
-
-const mos = () => {
-
-	recibirNombre();
 	mensaje1.classList.remove("ocultar");
 	botones1.classList.remove("ocultar");
 	codifica.classList.remove("ocultar");
 	decodifica.classList.remove("ocultar");
 	login.classList.add("ocultar");
-}
+});
+
 
 const codi = () => {
 
@@ -39,11 +36,10 @@ const codi = () => {
 }
 const deco = () => {
 
-	mostrar.value = cipher.decode(
+	mostrar.value = cipher.decode( 
 		document.getElementById("textint").value,
 		document.getElementById("textcod").value);
 }
 
 codifica.addEventListener("click", codi);
 decodifica.addEventListener("click", deco);
-intro.addEventListener("click", mos);
