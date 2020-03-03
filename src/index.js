@@ -1,12 +1,12 @@
 import cipher from './cipher.js';
-
 //console.log("hola");
-
 let mostrar = document.getElementById("textdes");
 const saludo = document.getElementById("saludo");
 saludo.classList.add("ocultar");
 const mensaje1 = document.getElementById("mensaje1");
 mensaje1.classList.add("ocultar");
+const textcod = document.getElementById("textcod");
+const textint = document.getElementById("textint");
 // console.log(mensaje1.class);
 const botones1 = document.getElementById("botones1");
 botones1.classList.add("ocultar");
@@ -27,18 +27,17 @@ form.addEventListener("submit",(event) =>{
 	login.classList.add("ocultar");
 });
 
-
 const codi = () => {
 
 	mostrar.value  = cipher.encode(
-		document.getElementById("textint").value,
-		document.getElementById("textcod").value);
+		textint.value,
+		textcod.value);
 }
 const deco = () => {
 
-	mostrar.value = cipher.decode( 
-		document.getElementById("textint").value,
-		document.getElementById("textcod").value);
+	mostrar.value = cipher.decode(
+	textint.value,
+	textcod.value);
 }
 
 codifica.addEventListener("click", codi);

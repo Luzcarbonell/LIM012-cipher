@@ -16,6 +16,8 @@ body{
 	font-size: x-large;
 	color: rgb(31, 73, 80); 
 	height: 100vh; /* para ellos trabajan juntos al height*/
+	font-weight: bold;
+
 
 }
 .login{
@@ -70,7 +72,9 @@ button {
 	align-content: center;
 	margin-top: 0px;
 	color: darkcyan;
-	position: absolute;
+	position: relative;
+	font-weight: bold;
+
 }
 .botones1{
 	align-content: center;

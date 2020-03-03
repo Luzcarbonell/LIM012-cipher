@@ -1,8 +1,9 @@
-const cipher = {
+const cipher = { 
   
   encode : (offset,string) => 
   {
-    if(string == "" || string == 0 || offset==0 ||offset==""){
+    if(string == "" || string == 0 || string==[] || offset==0 || offset=="" || offset==[])
+    {
       throw new TypeError();    
     }
     let str="";
@@ -26,7 +27,7 @@ const cipher = {
 
   decode : (offset,string) =>
   {
-    if(string == "" || string == 0 || offset==0 ||offset==""){
+    if(string == "" || string == 0 || string==[] || offset== 0 ||offset=="" ||offset==[]){
       throw new TypeError();
     }
     let str="";
