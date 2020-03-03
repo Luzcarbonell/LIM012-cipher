@@ -1,25 +1,5 @@
 # MENSAJERIA CIFRADA DEL LABORATORIO "GAINAX" 
 
-Investigación UX:
-  1. Resumen del proyecto
-    Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rubro de la medicina y deseen poder enviar mensajes cifrados a otra persona de su mismo centro de labor. 
-
-  2. Imagen final del proyecto
-    ![imagenfinal](imag/prototipofinal.png)
-
-  3. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-
-    Como es dirigido a personas que trabajan en el rubro de la salud/medicina, la mayoria son personas que crean formulas para diferente tipo de medicamentos, por ello la necesidad de escribir codificado sobre alguna inquietud a otro compañero de trabajo sin que lo demas sepan el tipo de componente tenga la nueva medicina.
- 
-  4. Luego colocarás la foto de tu primer prototipo en papel.
-    ![prototipo1](imag/prototipopapel.jpeg)
-
-  5. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-
-     Primero la idea inicial fue realizar el proyecto para ingresar a un laboratorio y el  ingreso seria a travez de la codificación cesar pero como no se entendia mucho , asi que lo modifique para que se adapte a una comunicación entre colaboradores de un mismo laboratorio, al comienzo realize el codigo con informacion antes usada("trivia"), mis compañeras me ayudaron a ver que habia otras opciones para lograr el mismo fin, asi como hacer al diseño de la pagina mas agradable . 
-
-
-  6. Imagen del prototipo final.
 
 ## Índice
 
@@ -34,12 +14,12 @@ Investigación UX:
 ***
 
 ## 1. Resumen del Proyecto
-
-
+Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rubro de la medicina y deseen poder enviar mensajes cifrados a otra persona de su mismo centro de labor. 
 
 ## 2. Imagen final del Proyecto
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+ ![imagenfinal](imag/prototipofinal.png)
+
 
 ## 3. Investigación UX:
 
@@ -48,6 +28,25 @@ Investigación UX:
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
+
+
+
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+
+    Como es dirigido a personas que trabajan en el rubro de la salud/medicina, la mayoria son personas que crean formulas para diferente tipo de medicamentos, por ello la necesidad de escribir codificado sobre alguna inquietud a otro compañero de trabajo sin que lo demas sepan el tipo de componente tenga la nueva medicina.
+ 
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+    ![prototipo1](imag/prototipopapel.jpeg)
+
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+     Primero la idea inicial fue realizar el proyecto para ingresar a un laboratorio y el  ingreso seria a travez de la codificación cesar pero como no se entendia mucho , asi que lo modifique para que se adapte a una comunicación entre colaboradores de un mismo laboratorio, al comienzo realize el codigo con informacion antes usada("trivia"), mis compañeras me ayudaron a ver que habia otras opciones para lograr el mismo fin, asi como hacer al diseño de la pagina mas agradable . 
+
+
+  5. Imagen del prototipo final.
+
+
+
 
 
 
@@ -65,7 +64,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### HTML y CSS
 
-* [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [x] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
 * [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 
