@@ -20,7 +20,6 @@ Este proyecto esta dirigido a personas que ya se encuentren trabajando en el rub
 
  ![imagenfinal](imag/prototipofinal.png)
 
-
 ## 3. Investigación UX:
 
   1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
