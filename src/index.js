@@ -17,7 +17,7 @@ const login = document.getElementById("login");
 saludo.classList.remove("ocultar");
 const form= document.getElementById("form");
 
-form.addEventListener("submit",(event) =>{
+form.addEventListener("submit",(event) =>{ 
 	event.preventDefault();
 	saludo.innerHTML = "Hola " + document.getElementById('name').value;
 	mensaje1.classList.remove("ocultar");
